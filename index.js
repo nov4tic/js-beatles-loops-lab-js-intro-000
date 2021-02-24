@@ -6,13 +6,6 @@ function theBeatlesPlay(mus, inst) {
   return arr;
 }
 
-const facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-]
-
 function johnLennonFacts(arr) {
   let i = 0;
   let empty = []
@@ -22,3 +15,4 @@ function johnLennonFacts(arr) {
   }
   return empty;
 }
+
