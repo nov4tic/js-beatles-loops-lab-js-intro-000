@@ -11,14 +11,14 @@ const facts = [
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
-];
+]
 
-function johnLennonFacts(facts) {
-  let i = 0;
-  let array = []
-  while (i < 4) {
-    let array = facts.push([i] + '!!!')
+function johnLennonFacts(arr) {
+  i = 0;
+  let empty = []
+  while (i < arr.length) {
+    empty.push(arr[i] + '!!!')
     i++
   }
-  return array;
+  return empty;
 }
