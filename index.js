@@ -15,3 +15,12 @@ function johnLennonFacts(arr) {
   }
   return empty;
 }
+function iLoveTheBeatles(num) {
+  let emptyA = []
+  do {
+    emptyA.push('I love the Beatles!')
+    num ++
+  } while (num < 15);
+  return emptyA;
+  }
+}
