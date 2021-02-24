@@ -13,11 +13,11 @@ const facts = [
   "He hated the sound of his own voice"
 ]
 
-function johnLennonFacts(facts) {
+function johnLennonFacts(arr) {
   let i = 0;
   let empty = []
-  while (i < facts.length) {
-    empty.push(facts[i] + '!!!')
+  while (i < arr.length) {
+    empty.push(arr[i] + '!!!')
     i++
   }
   return empty;
