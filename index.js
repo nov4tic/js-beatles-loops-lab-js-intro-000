@@ -14,9 +14,11 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
-  let newArr = []
-  for (let i = 0; i < 4; i++) {
-    newArr.push( facts[i] + '!!!');
+  let i = 0;
+  let array = []
+  while (i < 4) {
+    let array = facts.push([i] + '!!!')
+    i++
   }
-  return newArr;
+  return array;
 }
